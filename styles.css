@@ -25,7 +25,7 @@ body {
 
 .window {
   position: absolute;
-  width: 500px;
+  width: 4200px;
   background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(8px);
   border: 2px solid #fff;
