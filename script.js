@@ -190,7 +190,8 @@ function newWindow2() {
   win.className = 'window';
   const top = Math.floor(Math.random() * (window.innerHeight - 200)); // avoid off-screen
   const left = Math.floor(Math.random() * (window.innerWidth - 300)); // avoid off-screen
-
+  win.style.height='600px'
+  win.style.width='1200px'
   win.style.top = `${top}px`;
   win.style.left = `${left}px`;
 
